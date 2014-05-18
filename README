@@ -1,0 +1,6 @@
+This is a modified version of the pcaSerial10 sketch originally written for the
+FHEM project. The only modifications made were regarding the base frequency and
+the RFM12 initialization process (which contains a bug that prevents setting the
+correct frequency initially).
+
+For licensing information please have a look at the individual files.
