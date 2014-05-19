@@ -1,0 +1,1 @@
+SUBSYSTEM=="tty", ATTRS{idVendor}=="0403", ATTRS{idProduct}=="6001", ATTRS{serial}=="A9QT1JF3", GROUP="plugdev", MODE="0666", SYMLINK+="rfm12b-nano"
