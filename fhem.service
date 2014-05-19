@@ -1,0 +1,13 @@
+[Unit]
+Description=FHEM home automation
+Author=Simon Elsbrock <simon@iodev.org>
+
+[Service]
+User=fhem
+Restart=always
+Type=forking
+WorkingDirectory=/opt/fhem
+ExecStart=/opt/fhem/fhem.pl /opt/fhem/fhem.cfg
+
+[Install]
+WantedBy=local.target
